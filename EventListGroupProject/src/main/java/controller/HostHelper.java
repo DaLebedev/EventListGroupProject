@@ -29,8 +29,7 @@ public class HostHelper {
 	public Host findHost(String nameToLookUp) {
 		EntityManager em = emfactory.createEntityManager();
 		em.getTransaction().begin();
-		TypedQuery<Host> typedQuery = em.createQuery
-				("SELECT h FROM Host h where h.hostName = :selectedName", Host.class);
+		TypedQuery<Host> typedQuery = em.createQuery("SELECT h FROM Host h where h.hostName = :selectedName", Host.class);
 		typedQuery.setParameter("selectedName", nameToLookUp);
 		typedQuery.setMaxResults(1);
 		

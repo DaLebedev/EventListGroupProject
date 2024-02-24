@@ -26,8 +26,15 @@ public class AddAttendeesToEventServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+
+		AttendeeHelper dao = new AttendeeHelper();
+		request.setAttribute("allAttendees", dao.showAllAttendees());
+	
+		if(dao.showAllAttendees().isEmpty()) {
+			request.setAttribute("allAttendees", " ");
+		}
+		
+		getServletContext().getRequestDispatcher("/new-event.jsp").forward(request, response);
 	}
 
 	/**

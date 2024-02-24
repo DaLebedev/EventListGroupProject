@@ -33,11 +33,11 @@ public class EditAttendeeServlet extends HttpServlet {
 		String email = request.getParameter("attendeeEmail");
 		Integer tempId = Integer.parseInt(request.getParameter("id"));
 		
-		Attendee attendeeToUpdate = dao.searchForAttendeeById(tempId);
-		attendeeToUpdate.setAttendeeName(name);
-		attendeeToUpdate.setAttendeeEmail(email);
+		Attendee attendeeToEdit = dao.searchForAttendeeById(tempId);
+		attendeeToEdit.setAttendeeName(name);
+		attendeeToEdit.setAttendeeEmail(email);
 		
-		dao.updateAttendee(attendeeToUpdate);
+		dao.updateAttendee(attendeeToEdit);
 		
 		getServletContext().getRequestDispatcher("/ViewAllAttendeesServlet").forward(request, response);
 	}
