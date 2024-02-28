@@ -8,7 +8,6 @@
 </head>
 <body>
   
-  
   <form action="EditEventDetailsServlet" method="post">
     
     <input type="hidden" name="id" value="${eventToEdit.id}">

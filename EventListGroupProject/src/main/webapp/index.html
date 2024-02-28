@@ -3,17 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <title>Add to Attendee List</title>
+<link rel="stylesheet" href="HomeStylesheet.css">
 </head>
+
 <body>
+
+  <header>
+	<h1>Add Attendee To List</h1>
+	<nav>
+	  <ul>
+		<li><a href = "ViewAllAttendeesServlet">View Attendee List</a></li>
+		<li><a href="ViewAllEventsServlet">View All Events</a></li>
+		<li><a href="AddAttendeesToEventServlet">Create New Event</a></li>
+	  </ul>
+	</nav>
+  </header>	
+
+  <main>	
 	<form action = "AddAttendeeServlet" method="post">
 	Name: <input type ="text" name = "attendeeName">
+	<br>
 	Email: <input type = "text" name = "attendeeEmail">
+	<br>
 	<input type = "submit" value="Add Item">
-	</form> <br />
-	<a href = "ViewAllAttendeesServlet">View the list of attendees</a>
-	<br>
-	<a href="ViewAllEventsServlet">View all events</a> 
-	<br>
-	<a href="AddAttendeesToEventServlet">Create a new Event</a>
+	</form>
+  </main>
+	
+  <footer>
+  </footer>
+	
 </body>
 </html>
