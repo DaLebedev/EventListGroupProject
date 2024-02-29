@@ -4,16 +4,17 @@ body {
 	font-family: arial;
 	color: white;
 	background-color: #292F36;
+}
+
+td {
+	
+	margin: 10px;
+}
+
+h1 {
 	text-align: center;
 }
 
-input {
-	margin: 10px;
-    color: #292F36;
-    font-size: 16px;
-    border: 2px solid #4ecdc4;
-    border-radius: 3px;
-}
 
 input[type="submit"] {
     padding: 10px;
@@ -37,6 +38,7 @@ nav {
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
