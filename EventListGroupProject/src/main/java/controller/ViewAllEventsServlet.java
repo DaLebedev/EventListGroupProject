@@ -33,6 +33,7 @@ public class ViewAllEventsServlet extends HttpServlet {
 
 		EventDetailsHelper slh = new EventDetailsHelper();
 		List<EventDetails> abc = slh.getEvents();
+		
 		request.setAttribute("allEvents", abc);
 		
 		if(abc.isEmpty()) {
