@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Attendee List</title>
-<link rel="stylesheet" href="HomeStylesheet.css">
+<link rel="stylesheet" href="main-stylesheet.css">
 </head>
 <body>
 	<form method="post" action="NavigationServlet">

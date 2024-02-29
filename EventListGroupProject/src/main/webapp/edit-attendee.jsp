@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Edit Attendee</title>
-<link rel="stylesheet" href="HomeStylesheet.css">
+<link rel="stylesheet" href="main-stylesheet.css">
 </head>
 <body>
 	<h3>Enter Data for Attendee Below: </h3>

@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Events</title>
-    <link rel="stylesheet" href="EventListStylesheet.css">
+    <link rel="stylesheet" href="main-stylesheet.css">
   <style>
   
     table td {

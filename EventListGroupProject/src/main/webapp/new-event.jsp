@@ -5,7 +5,7 @@
 <head>
    <meta charset="UTF-8">
    <title>Create a new Event</title>
-   <link rel="stylesheet" href="HomeStylesheet.css">
+   <link rel="stylesheet" href="main-stylesheet.css">
 </head>
 <body>
   <form action="CreateNewEventServlet" method="post">
