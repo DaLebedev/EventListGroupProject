@@ -30,7 +30,7 @@ input[type="submit"]:hover {
     border: 2px solid #292F36;
 }
 
-#amOrPm {
+select {
 	padding: 10px;
     font-size: 16px;
     border-radius: 3px;

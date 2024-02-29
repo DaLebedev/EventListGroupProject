@@ -8,6 +8,8 @@
    <link rel="stylesheet" href="main-stylesheet.css">
 </head>
 <body>
+
+	<h1>Edit Existing Event</h1>
   
   <form action="EditEventDetailsServlet" method="post">
     

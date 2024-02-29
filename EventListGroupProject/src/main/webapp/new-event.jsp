@@ -23,10 +23,6 @@
     Event Time:
       <input type="text" name="hour" placeholder="hh" size="4">
       <input type="text" name="minute" placeholder="mm" size="4">
-      <select id="amOrPm">
-      	<option value="AM"> A.M. </option>
-      	<option value="PM"> P.M. </option>
-      </select>
     <br>
     Host Name: <input type="text" name="hostName">
     <br>
